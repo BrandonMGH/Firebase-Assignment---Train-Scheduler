@@ -1,0 +1,47 @@
+
+
+
+body {
+background-image: url(train\ station\ 2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white; 
+font-family: 'Pathway Gothic One', sans-serif;
+}
+
+td {
+    color: white; 
+    background: #1e1e1e
+}
+
+
+tr {
+    color: white; 
+    background: #1e1e1e 
+}
+
+.jumbotron {
+    background-color: #1e1e1e;
+    border-style: solid;
+    border-color: white;
+}
+form {
+    margin: 20px;
+    background:  #1e1e1e
+
+}
+.card {
+    margin-top: 25px;
+    background-color: #1e1e1e;
+    border-style: solid;
+    border-color: white;
+}
+
+h1, h3 {
+    text-align: center; 
+}
+
+h4, h3 {
+    color: yellow; 
+}
