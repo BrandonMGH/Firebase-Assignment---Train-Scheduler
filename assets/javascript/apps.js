@@ -35,7 +35,7 @@ database.ref().on("child_added", function (snapshot) {
     
     var nextTrain = moment().add(tMinutesTillTrain, "minutes");
     
-    var nextTrainSmall = moment(nextTrain).format("hh:mm");
+    var nextTrainSmall = moment(nextTrain).format("HH:mm");
     
     updatedArrival.text(nextTrainSmall).val(); 
 
